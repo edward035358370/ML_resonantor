@@ -160,7 +160,7 @@ def theta_labeling(raw):
                 Th_label.append(0)
     return Th_label
 
-label = theta_labeling(raw)#MMF_labeling(raw,All)#
+label = MMF_labeling(raw,All)#theta_labeling(raw)#
 
 #plt.plot(np.linspace(0,len(label),len(label)),label)
 #plt.show()
